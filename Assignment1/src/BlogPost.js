@@ -37,7 +37,7 @@ return (
             <img
               className="picture"
               src={post.profilePicture}
-              alt="image" />
+              alt="profile" />
             <h1>{post.title} </h1>
             <FontAwesomeIcon id="like" onClick={() => { likepost() }} style={{ textAlign: 'right', marginRight: '15px' }} className='icon' icon={faThumbsUp} />
             <FontAwesomeIcon style={{ textAlign: 'right' }} onClick={() => { commentpost() }} className='icon' icon={faComment} />

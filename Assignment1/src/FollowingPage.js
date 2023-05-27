@@ -48,7 +48,7 @@ const FollowingPage = () => {
                   <img
                     className="profile-picture"
                     src={author.profilePicture}
-                    alt="image" />
+                    alt={`Profile of ${author.name}`} />
                   <h2>{author.name}</h2>
                   <p>{author.blogPost}</p>
                   <Link to={"/BlogPost"}>
