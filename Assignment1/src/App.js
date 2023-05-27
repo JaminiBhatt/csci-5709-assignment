@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './App.css';
 import FollowingPage from './FollowingPage';
 import BlogPost from './BlogPost';

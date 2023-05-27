@@ -3,7 +3,7 @@ import './BlogPost.css';
 import { Link } from "react-router-dom";
 import $ from 'jquery';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAlignRight, faBars, faComment, faHeart, faHeartBroken, faHeartCircleBolt, faSignOut, faThumbsUp, faTimes } from '@fortawesome/free-solid-svg-icons'
+import {  faBars, faComment, faSignOut, faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 
 const BlogPost = () => {
   const post = {

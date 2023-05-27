@@ -2,7 +2,7 @@ import React from 'react';
 import './FollowingPage.css'; // Import the CSS file for styling
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faTimes, faSignOut } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faSignOut } from '@fortawesome/free-solid-svg-icons'
 
 
 const FollowingPage = () => {
