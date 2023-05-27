@@ -36,7 +36,8 @@ return (
           <div className="blog-post grow">
             <img
               className="picture"
-              src={post.profilePicture} />
+              src={post.profilePicture}
+              alt="image" />
             <h1>{post.title} </h1>
             <FontAwesomeIcon id="like" onClick={() => { likepost() }} style={{ textAlign: 'right', marginRight: '15px' }} className='icon' icon={faThumbsUp} />
             <FontAwesomeIcon style={{ textAlign: 'right' }} onClick={() => { commentpost() }} className='icon' icon={faComment} />
